@@ -1,6 +1,6 @@
 # nested-text-spinner
 
-Spin's a set of nested variables into plain text. Example: {hello {bob|alice}} returns hello bob
+Spin's a set of nested strings into plain text. Example: `{hello {bob|alice}}` returns `hello bob` or `hello alice`
 
 ## Installation
 
