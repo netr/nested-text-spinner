@@ -16,11 +16,25 @@ $ npm test
 
 ## How to use
 
+Require
+
 ```javascript
 const spinner = require('nested-text-spinner');
 
 let text = '{hello {bob|alice}}';
 let plain = spinner.spin(text);
+console.log(plain);
+
+//result: hello bob (or) hello alice
+```
+
+Import
+
+```javascript
+import spin from 'nested-text-spinner';
+
+let text = '{hello {bob|alice}}';
+let plain = spin(text);
 console.log(plain);
 
 //result: hello bob (or) hello alice
