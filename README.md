@@ -13,7 +13,7 @@ $ npm install nested-text-spinner
 ```javascript
 const spinner = require('nested-text-spinner');
 
-let text = "{hello {bob|alice}}
+let text = '{hello {bob|alice}}';
 let plain = spinner.spin(text);
 console.log(plain);
 
