@@ -1,0 +1,29 @@
+{
+  "name": "nested-text-spinner",
+  "version": "1.0.0",
+  "description": "This helps you spin nested texts (i.e. {hey {bob|tom}}",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/netr/nested-text-spinner.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Corey Jackson <corey@rojax.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {},
+  "files": [
+    "index.js"
+  ],
+  "main": "./index.js",
+  "keywords": [
+    "text",
+    "spinner",
+    "nested",
+    "text spinner"
+  ]
+}
