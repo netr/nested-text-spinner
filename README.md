@@ -8,6 +8,12 @@ Spin's a set of nested strings into plain text. Example: `{hello {bob|alice}}` r
 $ npm install nested-text-spinner
 ```
 
+## Test
+
+```bash
+$ npm test
+```
+
 ## How to use
 
 ```javascript
